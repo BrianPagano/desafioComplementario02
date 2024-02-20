@@ -8,4 +8,5 @@ module.exports = {
     dbName: process.env.DB_NAME,
     ghClientId: process.env.GITHUB_CLIENT_ID,
     ghClientSecret: process.env.GITHUB_CLIENT_SECRET,
+    secret: process.env.SECRET,
 }

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = require('./router/router')
-const { port } = require('./configs/server.config')
+const { port } = require('./configs/app.config')
 const { Server } = require("socket.io")
 const handlebars = require('express-handlebars')
 const mongoConnect = require('./db')

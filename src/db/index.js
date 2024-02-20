@@ -1,5 +1,5 @@
 const mongoose = require ('mongoose')
-const { dbUser, dbPassword, dbHost, dbName } = require('../configs/server.config')
+const { dbUser, dbPassword, dbHost, dbName } = require('../configs/app.config')
 
 const mongoConnect = async () => {
     try{
